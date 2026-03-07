@@ -1,0 +1,27 @@
+{
+  "model": "GSAI-ML/LLaDA-8B-Instruct",
+  "dataset": "generate_until",
+  "total_items": 1,
+  "num_samples": 1,
+  "total_forward_passes": 87,
+  "avg_forward_passes": 87.0,
+  "avg_forward_passes_per_item": 87.0,
+  "avg_forward_passes_per_sample": 87.0,
+  "timestamp_utc": "2026-03-07T07:28:21+00:00",
+  "extra": {
+    "lm_eval": true,
+    "task_hint": "gsm8k_cot",
+    "device": "cuda:0",
+    "gen_kwargs": {
+      "do_sample": false,
+      "until": [
+        "Q:",
+        "</s>",
+        "<|im_end|>"
+      ],
+      "gen_length": 256,
+      "block_length": 128,
+      "cfg_scale": 0.0
+    }
+  }
+}

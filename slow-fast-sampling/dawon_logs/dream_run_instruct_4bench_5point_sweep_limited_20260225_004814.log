@@ -1,0 +1,5 @@
+==================================================
+Starting evaluation for gsm8k_cot [p1_conservative]
+CUDA_VISIBLE_DEVICES=3, main_process_port=29510
+max_new_tokens=256, diffusion_steps=256, temperature=0.1, top_p=0.9, fewshot=0, limit=200
+output_path=./dawon_outputs/dream_instruct_4bench_5point_sweep_limited/gsm8k_cot/p1_conservative_step_256

@@ -1,0 +1,12 @@
+
+            Timestamp: 2026-03-04 23:13:07
+            Total Requests: 500
+            Batch Size: 1
+            Total Execution Time: 24767.9543 seconds
+            Total Characters Generated: 384000 '(token count)'
+            TPS (Chars/Sec or Tokens/Sec): 15.50
+            Number of Batches Processed: 500
+            Avg. 'avg_model_calls_length' (per batch avg.): 768.00
+            Avg. 'global_model_calls' (per batch avg.): 192.00
+            ---
+            

@@ -1,0 +1,23 @@
+{
+  "model": "Dream-org/Dream-v0-Instruct-7B",
+  "dataset": "generate_until",
+  "total_items": 50,
+  "num_samples": 1,
+  "total_forward_passes": 4800,
+  "avg_forward_passes_per_item": 96.0,
+  "avg_forward_passes_per_sample": 96.0,
+  "timestamp_utc": "2026-02-26T22:31:26+00:00",
+  "extra": {
+    "lm_eval": true,
+    "task_hint": "ifeval",
+    "device": "cuda:0",
+    "max_new_tokens_default": 768,
+    "max_length": 2048,
+    "diffusion_steps": 96,
+    "temperature": 0.1,
+    "top_p": 0.9,
+    "top_k": null,
+    "alg": "entropy",
+    "alg_temp": 0.0
+  }
+}
